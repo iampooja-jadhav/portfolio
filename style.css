@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f9fafc;
+    color: #333;
+}
+
+header {
+    background: #4b6cb7;
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro, .about, .contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #4b6cb7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #182848;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #182848;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
